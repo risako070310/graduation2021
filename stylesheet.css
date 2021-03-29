@@ -1,0 +1,329 @@
+@font-face {
+	font-family: 'Myfont';
+	src: url("futura.ttc");
+}
+
+body{
+	width: 100%;
+}
+
+h1{
+	font-family: Myfont;
+	font-style: italic;
+}
+
+/*パソコン向け*/
+@media screen and (min-width:1025px) {
+	.top{
+		background-image: url("background.png");
+	}
+	.top-mask{
+		height: 100%;
+  		background: rgba(255,255,255,0.6);
+	}
+	.top img{
+		width: 800px;
+		margin: 0 calc((100% - 800px) / 2);
+	}
+	.movie{
+		background-image: url("sakura.jpg");
+	}
+	.movie-mask{
+		height: 100%;
+  		background: rgba(255,255,255,0.6);
+	}
+	.movie img{
+		width: 400px;
+	}
+	.movie-youtube{
+		float: right;
+		margin: 100px 200px;
+	}
+	.memo{
+		text-align: right;
+	}
+	.message-box{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 0px 50px;
+	}
+	h1{
+		margin: 0;
+		text-align: center;
+		padding: 50px 0;
+		color: #ffb7d8;
+		font-size: 50px;
+	}
+	h2{
+		margin: 0;
+		padding: 0;
+	}
+	h4{
+		margin: 0;
+	}
+	p{
+		font-size: small;
+	}
+	.message{
+		margin: 20px 0;
+		clear: both;
+	}
+	.message-content{
+		width: 500px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.message img{
+		width: 200px;
+		height: auto;
+		margin: auto;
+	}
+	.message p{
+		width: 300px;
+	}
+	.members{
+		background-image: url("background.png");
+	}
+	.members-mask{
+		height: 100%;
+  		background: rgba(255,255,255,0.6);
+	}
+	.members img{
+		width: 500px;
+		margin: 0 calc((100% - 500px) / 2);
+	}
+	footer{
+		text-align: center;
+		padding: 10px 0;
+	}
+	.members h1{
+		font-family: Myfont;
+		font-style: italic;
+		text-align: center;
+		color: #ffb7d8;
+		font-size: 30px;
+		padding: 20px;
+	}
+	.members p{
+		color: #ffb7d8;
+		font-family: Myfont;
+		font-style: italic;
+		font-size: 20px;
+		margin: 0 calc((100% - 580px) / 2);
+		padding-bottom: 30px;
+	}
+
+}
+
+/*タブレット向け*/
+@media screen and (min-width:481px) and (max-width:1024px) {
+	.top{
+		background-image: url("background.png");
+	}
+	.top-mask{
+		height: 100%;
+  		background: rgba(255,255,255,0.6);
+	}
+	.top img{
+		width: 600px;
+		margin: 0 calc((100% - 600px) / 2);
+	}
+	.movie{
+		background-image: url("sakura.jpg");
+	}
+	.movie-mask{
+		height: 100%;
+  		background: rgba(255,255,255,0.6);
+	}
+	.movie img{
+		width: 250px;
+	}
+	.message-box{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 0px 10px;
+	}
+	.movie-youtube{
+		width: 350px;
+		height: auto;
+		float: right;
+		margin: 50px 50px;
+	}
+
+	h1{
+		margin: 0;
+		text-align: center;
+		padding: 50px 0;
+		color: #ffb7d8;
+		font-size: 50px;
+	}
+	h2{
+		margin: 0;
+		padding: 0;
+	}
+	h4{
+		margin: 0;
+	}
+	p{
+		font-size: x-small;
+	}
+	.message{
+		margin: 20px 0;
+		clear: both;
+	}
+	.message-content{
+		width: 350px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.message img{
+		width: 150px;
+		height: auto;
+		margin: auto;
+	}
+	.message p{
+		width: 230px;
+	}
+	.members{
+		background-image: url("background.png");
+	}
+	.members-mask{
+		height: 100%;
+  		background: rgba(255,255,255,0.6);
+	}
+	.members img{
+		width: 500px;
+		margin: 0 calc((100% - 500px) / 2);
+	}
+	footer{
+		text-align: center;
+		padding: 10px 0;
+	}
+	.members h1{
+		font-family: Myfont;
+		font-style: italic;
+		text-align: center;
+		color: #ffb7d8;
+		font-size: 30px;
+		padding: 20px;
+	}
+	.members p{
+		color: #ffb7d8;
+		font-family: Myfont;
+		font-style: italic;
+		font-size: 20px;
+		margin: 0 calc((100% - 580px) / 2);
+		padding-bottom: 30px;
+	}
+}
+
+/*スマホ向け*/
+@media screen and (min-width:1px) and (max-width:480px) {
+	.top{
+		background-image: url("background.png");
+	}
+	.top-mask{
+		height: 100%;
+  		background: rgba(255,255,255,0.6);
+	}
+	.top img{
+		width: 250px;
+		margin: 0 calc((100% - 250px) / 2);
+	}
+	.movie{
+		background-image: url("sakura.jpg");
+	}
+	.movie-mask{
+		height: 100%;
+  		background: rgba(255,255,255,0.6);
+	}
+	.movie img{
+		width: 120px;
+	}
+
+	.movie-youtube{
+		width: 200px;
+		height: auto;
+		margin: 20px 10px;
+		float: right;
+	}
+	.message-box{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: 0px 50px;
+	}
+	h1{
+		margin: 0;
+		text-align: center;
+		padding: 50px 0;
+		color: #ffb7d8;
+		font-size: 20px;
+	}
+	h2{
+		margin: 0;
+		padding: 0;
+		font-size: 18px;
+	}
+	h4{
+		margin: 0;
+		font-size: 15px;
+	}
+	p{
+		font-size: xx-small;
+	}
+	.message{
+		margin: 20px 0;
+	}
+	.message-content{
+		width: 250px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.message img{
+		width: 100px;
+		height: auto;
+		margin: auto;
+	}
+	.message p{
+		width: 250px;
+	}
+	.members{
+		background-image: url("background.png");
+	}
+	.members-mask{
+		height: 100%;
+  		background: rgba(255,255,255,0.6);
+	}
+	.members img{
+		width: 250px;
+		margin: 0 calc((100% - 250px) / 2);
+	}
+	footer{
+		text-align: center;
+		padding: 10px 0;
+	}
+	.members h1{
+		font-family: Myfont;
+		font-style: italic;
+		text-align: center;
+		color: #ffb7d8;
+		font-size: 20px;
+		padding: 20px;
+	}
+	.members p{
+		color: #ffb7d8;
+		font-family: Myfont;
+		font-style: italic;
+		font-size: 14px;
+		margin: 0 calc((100% - 250px) / 2);
+		padding-bottom: 30px;
+	}
+}
+
+
