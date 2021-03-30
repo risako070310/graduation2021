@@ -11,6 +11,37 @@ h1{
 	font-family: Myfont;
 	font-style: italic;
 }
+.message-right h2{
+	color: #fff;
+	padding: 0 10px;
+}
+.messages{
+	background-color: #fdeff2;
+}
+.pink h2{
+	background-color: #ef93b6;
+}
+.red h2{
+	background-color: #ea5550;
+}
+.yellow h2{
+	background-color: #f9c802;
+}
+.green h2{
+	background-color: #009854;
+}
+.purple h2{
+	background-color: #9969c7;
+}
+.orange h2{
+	background-color: #f3981d;
+}
+.sky h2{
+	background-color: #77c3ec;
+}
+.blue h2{
+	background-color: #1261A0;
+}
 
 /*パソコン向け*/
 @media screen and (min-width:1025px) {
@@ -41,6 +72,7 @@ h1{
 	}
 	.memo{
 		text-align: right;
+		margin-right: 100px;
 	}
 	.message-box{
 		display: flex;
